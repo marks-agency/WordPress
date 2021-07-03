@@ -1,0 +1,65 @@
+$text-color: #fff !default;
+$base-color: #cc3466;
+$icon-color: #ffffff;
+$highlight-color: #371f56;
+$notification-color: #f8bd00;
+$button-color: #371f56;
+
+$menu-submenu-text: #ffffff;
+$menu-submenu-focus-text: #ffffff;
+$menu-submenu-background: #371f56;
+
+// global
+
+$body-background: #ffffff;
+
+$link: #f8bd00;
+$link-focus: darken( $link, 20% ) !default;
+
+$button-color: $highlight-color !default;
+$button-text-color: $text-color !default;
+
+$form-checked: #371f56;
+
+// admin menu & admin-bar
+
+$menu-text: $text-color !default;
+$menu-icon: $icon-color !default;
+$menu-background: $base-color !default;
+
+$menu-highlight-text: $text-color !default;
+$menu-highlight-icon: $text-color !default;
+$menu-highlight-background: $highlight-color !default;
+
+$menu-current-text: $menu-highlight-text !default;
+$menu-current-icon: $menu-highlight-icon !default;
+$menu-current-background: $menu-highlight-background !default;
+
+$menu-submenu-text: mix( $base-color, $text-color, 30% ) !default;
+$menu-submenu-background: darken( $base-color, 7% ) !default;
+$menu-submenu-background-alt: desaturate( lighten( $menu-background, 7% ), 7% ) !default;
+
+$menu-submenu-focus-text: $highlight-color !default;
+$menu-submenu-current-text: $notification-color !default;
+
+$menu-bubble-text: $text-color !default;
+$menu-bubble-background: $notification-color !default;
+$menu-bubble-current-text: $text-color !default;
+$menu-bubble-current-background: $menu-submenu-background !default;
+
+$menu-collapse-text: $menu-icon !default;
+$menu-collapse-icon: $menu-icon !default;
+$menu-collapse-focus-text: $text-color !default;
+$menu-collapse-focus-icon: $menu-highlight-icon !default;
+
+$adminbar-avatar-frame: lighten( $menu-background, 7% ) !default;
+$adminbar-input-background: lighten( $menu-background, 7% ) !default;
+
+$adminbar-recovery-exit-text: $menu-bubble-text !default;
+$adminbar-recovery-exit-background: $menu-bubble-background !default;
+$adminbar-recovery-exit-background-alt: mix(black, $adminbar-recovery-exit-background, 10%) !default;
+
+$menu-customizer-text: mix( $base-color, $text-color, 40% ) !default;
+
+
+@import "../_admin.scss";

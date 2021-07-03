@@ -263,7 +263,7 @@ textarea:focus {
 
 #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after,
 #adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after {
-  border-right-color: #4796b3;
+  border-left-color: #4796b3;
 }
 
 #adminmenu .wp-submenu .wp-submenu-head {
@@ -302,7 +302,7 @@ textarea:focus {
 
 ul#adminmenu a.wp-has-current-submenu:after,
 ul#adminmenu > li.current > a.current:after {
-  border-right-color: #f1f1f1;
+  border-left-color: #f1f1f1;
 }
 
 #adminmenu li.current a.menu-top,
@@ -617,7 +617,7 @@ div#wp-responsive-toggle a:before {
 .wp-core-ui #customize-controls .control-section.open .accordion-section-title,
 .wp-core-ui #customize-controls .control-section .accordion-section-title:focus {
   color: #0073aa;
-  border-left-color: #e1a948;
+  border-right-color: #e1a948;
 }
 .wp-core-ui .customize-controls-close:focus,
 .wp-core-ui .customize-controls-close:hover,
@@ -631,7 +631,7 @@ div#wp-responsive-toggle a:before {
 .wp-core-ui .customize-section-back:hover,
 .wp-core-ui .customize-section-back:focus {
   color: #0073aa;
-  border-left-color: #e1a948;
+  border-right-color: #e1a948;
 }
 .wp-core-ui .customize-screen-options-toggle:hover,
 .wp-core-ui .customize-screen-options-toggle:active,
@@ -657,7 +657,7 @@ div#wp-responsive-toggle a:before {
 }
 .wp-core-ui .control-panel-themes .customize-themes-section-title:focus,
 .wp-core-ui .control-panel-themes .customize-themes-section-title:hover {
-  border-left-color: #e1a948;
+  border-right-color: #e1a948;
   color: #0073aa;
 }
 .wp-core-ui .control-panel-themes .theme-section .customize-themes-section-title.selected:after {
