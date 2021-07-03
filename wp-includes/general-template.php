@@ -4421,11 +4421,11 @@ function register_admin_color_schemes() {
 			'current' => '#fff',
 		)
 	);
-/* TO-DO
+
 	wp_admin_css_color(
-		'mark-dark',
-		_x( 'Dark', 'admin color scheme' ),
-		admin_url( "css/colors/mark-dark/colors$suffix.css" ),
+		'mark-white',
+		_x( 'White', 'admin color scheme' ),
+		admin_url( "css/colors/mark-white/colors$suffix.css" ),
 		array( '#1e1e1e', '#3858e9', '#33f078' ),
 		array(
 			'base'    => '#f3f1f1',
@@ -4433,11 +4433,12 @@ function register_admin_color_schemes() {
 			'current' => '#fff',
 		)
 	);
-
+	
+/* TO-DO
 	wp_admin_css_color(
-		'mark-white',
-		_x( 'White', 'admin color scheme' ),
-		admin_url( "css/colors/mark-white/colors$suffix.css" ),
+		'mark-dark',
+		_x( 'Dark', 'admin color scheme' ),
+		admin_url( "css/colors/mark-dark/colors$suffix.css" ),
 		array( '#1e1e1e', '#3858e9', '#33f078' ),
 		array(
 			'base'    => '#f3f1f1',
